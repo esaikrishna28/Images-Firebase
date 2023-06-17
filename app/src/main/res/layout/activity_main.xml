@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundcolor">
+    <Button
+        android:id="@+id/button_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose file">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/button_choose"
+        android:hint="enter file name"
+        android:textSize="20dp"
+        android:textColorHint="@color/black">
+
+
+    </EditText>
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/edit_text_name"
+        android:layout_marginTop="45dp">
+
+    </ImageView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:layout_marginTop="55dp">
+
+    </ProgressBar>
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:text="UPLOAD">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/show_uploads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="610dp"
+        android:layout_toRightOf="@id/button_upload"
+        android:text="Show Uploads"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "602695448424",
+    "project_id": "images-6535b",
+    "storage_bucket": "images-6535b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602695448424:android:cc9132a27744f9b5c188dd",
+        "android_client_info": {
+          "package_name": "images.tackled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602695448424-fnq23325d9vc9obloq9osbmtqg1pcgip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm0ilJ5s67XrczvtcnutWs6JvQfwRZhlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602695448424-fnq23325d9vc9obloq9osbmtqg1pcgip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
